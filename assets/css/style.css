@@ -1,0 +1,335 @@
+
+*{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      
+   }
+   h2{
+      background:linear-gradient(to right, red 20%, blue 80%);
+      -webkit-background-clip:text;
+      color:transparent;
+      transform:skewX(10deg);
+      text-shadow:3px 3px 4px gray;
+      font-size:40px;
+   }
+   h2{
+     font-family: 'merinda';
+     font-weight:bold;
+
+  }
+   
+     
+      .menubar a{
+           color:rgb(25, 184, 247);
+      }
+    .menubar a:hover{
+       color:red;   
+       font-size:20px;  
+       text-decoration:underline limegreen; 
+             
+     }
+      .togalicon{
+          background-color:#fff;
+          margin:10px;
+        }
+  .ftext{
+         font-family: 'merinda';
+           font-weight: bold;
+           font-size:35px;
+           cursor: pointer;
+           color:skyblue;
+           
+           
+        }
+       
+     
+         .text1{
+             animation:text 4s infinite;
+         }
+         @keyframes text{
+            10%{color:red;}
+            30%{color:rgb(251, 0, 255);}
+            50%{color:rgb(9, 40, 47);}
+            60%{color:rgb(19, 248, 156);}
+            850%{color:rgb(0, 94, 255);}
+            90%{color:rgb(0, 208, 255);}
+            100%{color:rgb(241, 89, 34);}
+           
+        }
+
+           @media(max-width:767px){
+            li  a{
+                     position:relative;
+                     left:50px;
+            }    
+           }
+       #shop{
+          
+            font-size:30px;
+            color:#fff;
+            margin:0px 10px 0px 0px;
+       }
+        .searchicon{
+               display:flex;
+               justify-content:end;
+               position:relative;
+               top:-40px;
+               margin:0px 20px 0px 0px;
+               font-size:30px;
+        }
+        
+       #f-logo{
+               width:60px;
+               height:60px;
+               border-radius:100px;
+       }
+       .navs{
+              box-shadow:10px 10px 30px gray;
+               background:#051a37;
+               position:sticky;
+               top:0px;
+               z-index:1;
+       }
+      
+
+       .text1{
+             text-align: justify;
+             position:relative;
+             left:0px;
+             line-height: 20px;
+       }
+       .text1::selection{
+             background: rgb(255, 209, 3);
+             color:white;
+       }
+        h1{
+             text-transform: capitalize;
+             font-family: 'merinda';
+}
+ /* about section in css */
+        @media (max-width:676px){
+          .plateburg{
+               position:relative;
+               left:-50px;
+             }
+         }
+   /* about section in css */
+         
+    /* our menu section */
+      .star-icon{
+         color:yellow;
+      }
+        .burder4{
+             height:250px;
+             width:auto;
+        }
+      .shdow{
+             box-shadow: 10px 10px 30px gray;
+             border-radius:10px;
+           
+
+      }
+      @media (max-width:767px){
+           .shdow{
+            margin:5px;
+           } 
+      }
+      .bor-remove{
+            border:none;
+      }
+      .burger-shd:hover{
+               animation: round 2s;       
+      }
+      @keyframes round{
+            0%{transform:rotate(360deg)}
+      }
+     
+        .burger-shdo:hover{        
+            animation:some 3s ;  
+     }
+       @keyframes some{
+             0%{transform: rotateY(360deg);}      
+       }
+       .burger-shdi:hover{
+          animation: rotate 3s;
+       }
+       @keyframes rotate{
+           0%{transform:rotateX(360deg);}
+       }       
+       
+       .sec-burger{
+             width:auto;
+             height:255px;
+       }
+       .pizza{
+           width:auto;
+           height:255px;
+       }
+     /* our menu section */
+
+
+     /* gallery section....-- */
+        
+         .ice{
+           aspect-ratio: 3/2;
+           object-fit: cover; 
+           margin:20px;
+         }
+      /* gallery section....-- */
+
+      /* team section.. */
+      .foodmakerimg{
+          aspect-ratio: 3/2;
+          object-fit: cover;  
+          width:300px;
+          height:auto;   
+          margin:10px;
+          display:flex;
+          grid-gap:30px; 
+      }
+         .card-man{
+            transform: skewX(-6deg);
+            border-radius:10px;
+          
+         }
+         .card-man:hover{
+          transform: skewX(0deg);
+         }
+         .card-man2{
+            transform:skewX(6deg);
+            border-radius:10px;
+         }
+         .card-man2:hover{
+            transform: skewX(0deg);
+         }
+
+     /* customer section */
+     .logo{
+          width:80px;
+          height:auto;
+          border-radius:100px;
+          position:relative;
+          left:130px;
+          top:4px;
+     }
+        .rotatecard{
+           transition: 0.5s;
+           transform: skewX(5deg);
+        }
+        .rotatecard:hover{
+             transform:translateY(-20px);
+        }
+        /* order section... */
+
+        .orgb{
+              background:rgb(21, 81, 89);
+        }
+             .input-group{
+                  position:relative;
+                  margin:30px; 
+             }
+             .input-group label{
+                  position:absolute;
+                  top:50%;
+                  left:5px;
+                  transform: translateY(-50%);
+                  font-size: 16px;
+                  padding:0 5px;
+                  color:#fff;
+                  pointer-events: none;
+                  transition: .5s;
+           }
+              .input-group input{
+                   width:270px;
+                   height:40px;
+                   font-size:16px;
+                   background:transparent;
+                   border:2px solid #fff;
+                   color:#fff;
+                   outline:none;
+            
+              }
+              .input-group input:focus~label,
+              .input-group input:valid~label{
+                   top:0px;
+                   font-size:16px;
+                   color:white;
+                   background:rgba(21, 81, 89);
+              }
+
+
+              /* our team  section*/
+                  .member{
+                      width:238px;
+                      height:236px;
+                      border-radius:50%; 
+                      border:2px solid  black;  
+                      transition:3s;
+                      box-shadow: 10px 10px 15px gray inset,
+                                     -5px -5px  16px gray;
+                  }
+                  
+                   .member:hover{
+                          width:260px;
+                          height:220px;
+                          border-radius:10px 100px 100px 10px;
+                          animation:members 3s infinite;
+                  }
+                  @keyframes members{
+                    10%{background:blue;}
+                    20%{background:rgb(83, 83, 110);}
+                    40%{background:rgb(14, 42, 85);}
+                    60%{background:rgb(255, 0, 0);}
+            }
+                  @media (max-width:767px){
+                      .member{
+                            margin:10px;
+                      }
+                  }
+                  .foodman:hover{
+                    animation: cookman 3s;
+                    width:180px;
+                    height:180px;
+                    border-radius:20px;
+                    transition: 4s;
+                  }
+                  @keyframes cookman{
+                      100%{transform:translateY(1px);}
+               
+                  }
+                  .foodman{
+                      width:200px;
+                      height:200px;
+                      border-radius:50%;
+                      border:2px solid black;
+                      box-shadow: 10px 10px 15px gray inset,
+                      -5px -5px  16px gray;
+                  }
+                  .teamtext{
+                        font-size:10px;
+                        position:relative;
+                        top:-80px;
+                        left:20px;
+                        /* z-index:-1; */
+                  }
+                   
+                  .teamlogo{
+                       position:relative;
+                       top:-66px;
+                       left:57px;
+                       font-size:30px;
+                       margin:5px;
+                  }
+              /* our team  section*/
+      /* contact menu */
+                label{
+                   font-size:25px;
+        
+       }
+          h3{
+               font-family: 'merinda';
+               text-transform: uppercase;
+          }
+       /* contact menu */

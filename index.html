@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="https://cdn.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bandle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=merienda" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajex/libs/poopper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href=".//assets/css/style.css">
+</head>
+<body>
+      <nav class="navbar navbar-expand-md navs">
+        <a href="" class="navbar-brand fw-bold mx-5 ftext">Food Haveli</a> 
+        <button class="navbar-toggler togalicon"data-toggle="collapse"data-target="#mynavbar">
+        <span class="navbar-toggler-icon "></span>
+        </button>  
+        <div class="collapse navbar-collapse"id="mynavbar">
+            <ul class="navbar-nav m-auto menubar">
+                <li><a href="#home" class="nav-link fw-bold">Home</a></li>
+                <li>
+                  <a href="#about" data-toggle="dropdown" class="nav-link fw-bold dropdown-toggle">About </a>
+                  <div class="dropdown-menu">
+                    <a href="" class="dropdown-item">Menu-list</a>
+                    <a href="" class="dropdown-item">Menu-list</a>
+                    <a href="" class="dropdown-item">Menu-list</a>
+                    <a href="" class="dropdown-item">Menu-list</a>
+                  </div>
+                </li>
+                <li><a href="#menu" class="nav-link fw-bold">Menu</a></li>
+                <li><a href="#gallery" class="nav-link fw-bold">Gallery</a></li>
+                <li>
+                  <a href="#review" data-toggle="dropdown" class="nav-link dropdown-toggle fw-bold">Review</a>
+                  <div class="dropdown-menu">
+                   <a href="" class="dropdown-item">People Review</a>
+                   <a href="" class="dropdown-item">People Review</a>
+                   <a href="" class="dropdown-item">People Review</a>
+                   <a href="" class="dropdown-item">People Review</a>
+                  </div>               
+                </li>
+                <li><a href="#order" class="nav-link fw-bold">Order</a></li>
+                
+            </ul>
+            
+            <i class="fa fa-shopping-cart" id="shop" aria-hidden="true"></i>
+            <i class="fa fa-heart" id="shop" aria-hidden="true"></i>
+            <i class="fa fa-address-book" id="shop" aria-hidden="true"></i>
+        </div>
+      </nav>
+        <div class="row p-5">
+            <div class="col-md-6">
+                <h1>get fresh <span class="text-warning">food</span> <br>in a Easy way</h1>
+                <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias nulla blanditiis fuga odio libero voluptas quis odit, fugit itaque 
+                   soluta ab vero aliquid! Est rerum in, culpa, veniam recusandae suscipit id, deleniti harum error voluptatum atque? Illum cum recusandae 
+                    animi sit commodi nemo possimus eum porro nisi tenetur? Sunt earum non itaque accusantium mollitia possimus dignissimos placeat magni consequatur 
+                    dolorem tenetur, omnis saepe vitae, et at beatae rerum perspiciatis. Dolor, eius enim voluptatibus alias modi quia magni ad incidunt adipisci earum,
+                     minima quam, officia nemo consequuntur! Alias maxime aperiam adipisci? Ipsum vero velit facere, ab provident est veritatis sed...</p>
+                     <button class="btn bg-warning text-white "onmouseout="fun()">Order Now ></button>
+
+                     <input type="text" class="form-control mt-2 form-control-lg"placeholder="Search.....">
+            </div>
+            <div class="col-md-6">
+                <img src="./assets/img/burger.png" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- about section -->
+            <div class="row p-5">
+                <div class="col-md-6">
+                    <img src="./assets/img/1food-plate.png " class="img-fluid offset-1 plateburg">
+                </div>
+                <div class="col-md-6">
+                  <h2>About us </h2>
+                  <p>Why Choose us?</p>  
+                  <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias nulla blanditiis fuga odio libero voluptas quis odit, fugit itaque 
+                    soluta ab vero aliquid! Est rerum in, culpa, veniam recusandae suscipit id, deleniti harum error voluptatum atque? Illum cum recusandae 
+                     animi sit commodi nemo possimus eum porro nisi tenetur? Sunt earum non itaque accusantium mollitia possimus dignissimos placeat magni consequatur 
+                     dolorem tenetur, omnis saepe vitae, et at beatae rerum perspiciatis. Dolor, eius enim voluptatibus alias modi quia magni ad incidunt adipisci earum,
+                      minima quam, officia nemo consequuntur! Alias maxime aperiam adipisci? Ipsum vero velit facere, ab provident est veritatis sed...</p>
+                     <button class="btn bg-warning text-white "onmouseover="fun()">Order Now ></button>
+                </div>
+            </div>
+        <!-- about section -->
+
+         <!-- our menu section -->
+          <div class="row p-5">
+            <h2 class="text-center">Our <span class="text-warning">Menu</span></h2>
+            <div class="col-md-3 text-center shdow burger-shdo">
+                <div class="card bor-remove">
+                    <img src="./assets/img/burger_sandwich3.png"class="img-fluid ">
+                    <div class="card-body">
+                        <div class="card-title">
+                             <p class="fw-bold text-warning">Burger</p>
+                            <div class="card-text">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque harum beatae.</p>
+                              <p>$20.00</p>
+                              <div class="star-icon">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                              </div>
+                              <button class="btn bg-dark text-white m-2"onclick="fun()">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-center shdow burger-shd">
+                <div class="card bor-remove">
+                    <img src="./assets/img/burger.png4.png" class="img-fluid sec-burger">
+                    <div class="card-body">
+                        <div class="card-title">
+                             <p class="fw-bold text-warning">Burger</p>
+                            <div class="card-text">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque harum beatae.</p>
+                              <p>$20.00</p>
+                              <div class="star-icon">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                              </div>
+                              <button class="btn bg-dark text-white m-2 ">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-center shdow burger-shdo">
+                <div class="card bor-remove">
+                    <img src="./assets/img/tommato burger.png!sw800" class="img-fluid sec-burger">
+                    <div class="card-body">
+                        <div class="card-title">
+                             <p class="fw-bold text-warning">Burger</p>
+                            <div class="card-text">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque harum beatae.</p>
+                              <p>$20.00</p>
+                              <div class="star-icon">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                              </div>
+                              <button class="btn bg-dark text-white m-2 ">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-center shdow burger-shdi">
+                <div class="card bor-remove">
+                    <img src="./assets/img/pizza.png"class="img-fluid pizza">
+                    <div class="card-body">
+                        <div class="card-title">
+                             <p class="fw-bold text-warning">Burger</p>
+                            <div class="card-text">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque harum beatae.</p>
+                              <p>$20.00</p>
+                              <div class="star-icon">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                              </div>
+                              <button class="btn bg-dark text-white m-2 "onclick="fun()">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+         <!-- our menu section -->
+
+         <!-- gallery section -->
+             <div class="row p-5">
+              <h2 class="text-center p-4">Gallery</h2>
+                <div class="col-md-3 shdow rotatecard">
+                  <div class="card bor-remove">
+                    <img src="./assets/img/black-forest-cake.png" class="img-fluid ice">
+                    <div class="card-body">
+                      <p class="text-center">$20.00</p>
+                      <p class="fw-bold text-red text-center">Black-Cake</p>
+                      <button class="btn bg-warning text-white m-2 ">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 shdow rotatecard">
+                  <div class="card bor-remove">
+                    <img src="./assets/img/pngtree-summer-ice-crea.png" class="img-fluid  ice">
+                    <div class="card-body">
+                      <p class="text-center">$10.00</p>
+                      <p class="fw-bold text-red text-center">Roal Ice</p>
+                      <button class="btn bg-warning text-white m-2 ">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 shdow rotatecard">
+                  <div class="card bor-remove">
+                    <img src="./assets/img/ice-cream.png" class="img-fluid ice">
+                    <div class="card-body">
+                      <p class="text-center">$10.00</p>
+                      <p class="fw-bold text-red text-center">Cake</p>
+                      <button class="btn bg-warning text-white m-2 ">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 shdow rotatecard">
+                  <div class="card bor-remove">
+                    <img src="./assets/img/ice-cream-cup.webp" class="img-fluid cup-cream ice">
+                    <div class="card-body">
+                      <p class="text-center">$25.00</p>
+                      <p class="fw-bold text-center text-red;">ice-cream</p>
+                      <button class="btn bg-warning text-white ">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                
+             </div>
+         <!-- gallery section -->
+                <!-- team section -->
+                 <div class="row">
+                  <div class="col-12">
+                    <h2 class="text-center p-2">Food Member's</h2>
+                    <marquee scrollamount="6">
+                      <div class="foodmakerimg">
+                        <img src="./assets/img/foodmaker1.avif"class="img-fluid card-man">
+                        <img src="./assets/img/foodmaker2.avif"class="img-fluid card-man2">
+                        <img src="./assets/img/foodmaker2.jpg"class="img-fluid card-man">
+                        <img src="./assets/img/foodmaker4.jpg"class="img-fluid card-man2">
+                        <img src="./assets/img/cookmaker6.avif"class="img-fluid card-man">
+                        <img src="./assets/img/young-beautiful-woman.avif"class="img-fluid card-man2">
+                        <img src="./assets/img/foodmaker2.avif"class="img-fluid card-man">
+                        <img src="./assets/img/man food macker.jpg" class="img-fluid card-man2">
+                      </div>
+                    </marquee>
+                  </div>
+                 </div>
+                 <!-- team section -->  
+          <!-- customer section -->
+          <div class="row p-5">
+            <h2 class="text-center p-3">Customer Review</h2>
+            <div class="col-md-3 shdow rotatecard">
+                <div class="card bor-remove">
+                    <img src="./assets/img/sunder.jpg" class="img-fluid logo">
+                    <div class="card-body">
+                      <h4 class="card-title text-center">Sundar</h4>
+                      <div class="star-icon text-center p-1">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                      </div>
+                      <p class="card-text text1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quibusdam exercitationem 
+                        optio voluptate asperiores provident dolores tenetur dicta, sunt ullam veritatis itaque. Commodi dolor odio quasi
+                         eveniet consequuntur excepturi velit officiis. Maxime cum quas quaerat sit eaque atque numquam ullam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 shdow rotatecard">
+                <div class="card bor-remove">
+                    <img src="./assets/img/sunder.jpg" class="img-fluid logo">
+                    <div class="card-body">
+                      <h4 class="card-title text-center">Sundar</h4>
+                      <div class="star-icon text-center p-1">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                      </div>
+                      <p class="card-text text1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quibusdam exercitationem 
+                        optio voluptate asperiores provident dolores tenetur dicta, sunt ullam veritatis itaque. Commodi dolor odio quasi
+                         eveniet consequuntur excepturi velit officiis. Maxime cum quas quaerat sit eaque atque numquam ullam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 shdow rotatecard">
+                <div class="card bor-remove">
+                    <img src="./assets/img/1000040172.jpg" class="img-fluid logo">
+                    <div class="card-body">
+                      <h4 class="card-title text-center">Abhi</h4>
+                      <div class="star-icon text-center p-1">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                      </div>
+                      <p class="card-text text1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quibusdam exercitationem 
+                        optio voluptate asperiores provident dolores tenetur dicta, sunt ullam veritatis itaque. Commodi dolor odio quasi
+                         eveniet consequuntur excepturi velit officiis. Maxime cum quas quaerat sit eaque atque numquam ullam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 shdow rotatecard">
+                <div class="card bor-remove">
+                    <img src="./assets/img/1000040172.jpg" class="img-fluid logo">
+                    <div class="card-body">
+                      <h4 class="card-title text-center">Amit</h4>
+                      <div class="star-icon text-center p-1">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                      </div>
+                      <p class="card-text text1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quibusdam exercitationem 
+                        optio voluptate asperiores provident dolores tenetur dicta, sunt ullam veritatis itaque. Commodi dolor odio quasi
+                         eveniet consequuntur excepturi velit officiis. Maxime cum quas quaerat sit eaque atque numquam ullam.</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+          <!-- customer section -->
+
+           <!-- order now section -->
+             <div class="row p-5 ">
+              <h2 class="text-center"><span class="text-warning">Order</span>Now</h2>
+              <div class="col-md-6">
+                <img src="./assets/img/order-image.jpg" class="img-fluid order-img">
+              </div>
+              <div class="col-md-6 ">
+                <form action="/action_page.php">
+                 <div class="row orgb">
+                  <div class="col-md-6 ">
+                    <form>
+                     <div class="input-group">
+                      <input type="text" class="foem-control"required>
+                      <label for="">Name</label>
+                     </div>
+                     <div class="input-group">
+                      <input type="text" class="foem-control"required>
+                      <label for="">number</label>
+                     </div>
+                     <div class="input-group">
+                      <input type="text" class="foem-control"required>
+                      <label for="">Order</label>
+                     </div>
+                    
+                    </form>
+                  </div>
+                  <div class="col-md-6">
+                    <form>
+                      <div class="input-group">
+                        <input type="text" list="suggestions" class="foem-control"required>
+                        <datalist id="suggestions">
+                           <option value="1"></option>
+                           <option value="2"></option>
+                           <option value="3"></option>
+                           <option value="4"></option>
+                           <option value="5"></option>
+                        </datalist>
+                        <label for="">quantity</label>
+                       </div>
+                       <div class="input-group">
+                        <input type="text" class="foem-control"required>
+                        <label for="">Address</label>
+                       </div>
+                       <div class="input-group">
+                        <input type="text" class="foem-control"required>
+                        <label for="">pincode</label>
+                       </div>
+                       <button class="btn bg-warning fw-bold text-white">Submit</button>
+                    </form>
+                  </div>
+                 </div>
+              
+              </div>
+             </div>
+            <!-- order now section -->
+
+             <!-- oue team  -->
+               <div class="row p-5">
+                <h2 class="text-center py-3">OUR TEAM</h2>
+                   <div class="col-md-4">
+                    <div class="card member">
+                      <div class="card-body">
+                         <img src="./assets/img/foodmaker2.jpg" class="img-fluid foodman">
+                          <div class="teamlogo">
+                            <i class="fa fa-linkedin" onclick="openwindow1()" aria-hidden="true"></i>
+                            <i class="fa fa-youtube-play"  onclick="openwindow2()" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" onclick="openwindow3()" aria-hidden="true"></i>
+                          </div>
+                      </div>
+                    </div>
+                   </div>
+                   <div class="col-md-4">
+                    <div class="card member">
+                      <div class="card-body">
+                         <img src="./assets/img/man food macker.jpg" class="img-fluid foodman">
+                          <div class="teamlogo">
+                            <i class="fa fa-linkedin" onclick="openwindow1()" aria-hidden="true"></i>
+                            <i class="fa fa-youtube-play"  onclick="openwindow2()" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" onclick="openwindow3()" aria-hidden="true"></i>
+                          </div>
+                      </div>
+                    </div>
+                   </div>
+                   <div class="col-md-4">
+                    <div class="card member">
+                      <div class="card-body">
+                         <img src="./assets/img/young-beautiful-woman.avif" class="img-fluid foodman">
+                          <div class="teamlogo">
+                            <i class="fa fa-linkedin" onclick="openwindow1()" aria-hidden="true"></i>
+                            <i class="fa fa-youtube-play"  onclick="openwindow2()" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" onclick="openwindow3()" aria-hidden="true"></i>
+                          </div>
+                      </div>
+                    </div>
+                   </div>
+                   
+               </div>
+             <!-- oue team  -->
+
+         <!-- contact Menu -->
+          <div class="row p-5 bg-dark text-white">
+            <div class="col-md-3">
+                 <h3>Location</h3>
+                 <p>Uttar Pradesh</p>
+                 <p>Delhi</p>
+                 <p>Mumbai</p>
+                 <p>Banglore</p>
+                 <p>panjab</p>
+                 
+            </div>
+            <div class="col-md-3">
+              <h3>Quick Link</h3>
+              <p>Home</p>
+              <p>About</p>
+              <p>Menu</p>
+              <p>Gallery</p>
+              <p>Order</p>
+            </div>
+            <div class="col-md-3">
+              <h3>Contact</h3>
+              <p>+91 7800046960</p>
+              <p>+91 8573063754</p>
+              <p>+91 8432930194</p>
+              <p>+91 8430564394</p>
+            </div>
+            <div class="col-md-3">
+              <h3>Our Service</h3>
+              <p>Fast Delivery</p>
+              <p>Easy Payment</p>
+              <p>24 x 7 Service</p>
+              <p></p>
+            </div>
+          </div>
+         <!-- contact Menu -->
+          <!-- footer section -->
+                <div class="row bg-info text-white p-2">
+                  <div class="col-6">
+                    <p class="mt-1 mx-5 fw-bold">@Copy Right//www.FoodHaveli.com</p>
+                  </div>
+                  <div class="col-6 text-end">
+                    <i class="fa fa-linkedin" id="shop" onclick="openwindow1()" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play" id="shop" onclick="openwindow2()" aria-hidden="true"></i>
+                    <i class="fa fa-instagram"id="shop" onclick="openwindow3()" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" id="shop" onclick="openwindow4()" aria-hidden="true"></i>
+                  </div>
+                </div>
+          <!-- footer section -->  
+
+          <script src="assets/food.js/food.js">
+           
+          </script>
+</body>
+</html>
